@@ -1,0 +1,58 @@
+body {
+  background: rgb(255, 220, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 300px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 2%;
+}
+form textarea {
+  height: 75%;
+  width: 90%;
+  border: 2px solid black;
+  box-shadow: 3px 5px black;
+}
+form div {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+form div .button_form {
+  background: white;
+  width: 43%;
+  height: 90%;
+  border: 2px solid black;
+  box-shadow: 3px 5px black;
+}
+form div .button_form:active {
+  box-shadow: none;
+  transform: translate(3px, 5px);
+}
+form div .button_form.reset {
+  background: url(../svg/bin.svg) center;
+  background-size: 23px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+form div .button_form.reset:active {
+  background-color: rgb(91, 5, 5);
+}
+form div .button_form.copy {
+  background: white url(../svg/copy.svg) center;
+  background-size: 23px;
+  background-repeat: no-repeat;
+  cursor: copy;
+}/*# sourceMappingURL=style.css.map */

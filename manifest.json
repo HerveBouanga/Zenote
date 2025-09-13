@@ -1,0 +1,19 @@
+{
+    "name": "Zenote",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Une extension pour prendre des notes qu'on ne se sent trop fatiguer pour ouvrir un éditeur de text",
+    "icons": {
+        "16": "assets/icons/icone16.png",
+        "32": "assets/icons/icone32.png",
+        "48": "assets/icons/icone48.png",
+        "128": "assets/icons/icone128.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "script"
+    ]
+}
